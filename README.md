@@ -17,25 +17,25 @@ This is a template for creating an [HTML GitBook style](https://bookdown.org/yih
 
 ### Clone the repo
 
-- [ ] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio.
+- [x] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio.
 
 ### Edit some key files
 
-- [ ] 1. In `index.Rmd`, change YOUR TITLE HERE to your title. 
+- [x] 1. In `index.Rmd`, change YOUR TITLE HERE to your title. 
 
-- [ ] 2. In `index.Rmd`, change YOUR NAME HERE to your name.
+- [x] 2. In `index.Rmd`, change YOUR NAME HERE to your name.
 
-- [ ] 3. In `_bookdown.yml`, change YOUR GITHUB USERNAME to your GitHub username in the two places it appears.
+- [x] 3. In `_bookdown.yml`, change YOUR GITHUB USERNAME to your GitHub username in the two places it appears.
 
-- [ ] 4. In `_bookdown.yml`, change YOUR GITHUB REPO to your GitHub repo name in the two places it appears.
+- [x] 4. In `_bookdown.yml`, change YOUR GITHUB REPO to your GitHub repo name in the two places it appears.
 
 (Note that 3. and 4. provide links to the `.Rmd` files of your project for editing and viewing. If you move your `.Rmd` files you will need to update these file paths. Once your book is rendered, test that the edit (pen) and view (eye) buttons work.)
 
-- [ ] 5. In `_output.yml`, change YOUR SHORT TITLE to a shortened version of your title. (Leave the "after:" line indicating that the book was published with bookdown as is.)
+- [x] 5. In `_output.yml`, change YOUR SHORT TITLE to a shortened version of your title. (Leave the "after:" line indicating that the book was published with bookdown as is.)
 
 ### Render the book
 
-- [ ] 1. Install **bookdown** with `install.packages("bookdown")`. If you already have it, update to the [latest version](https://CRAN.R-project.org/package=bookdown).
+- [x] 1. Install **bookdown** with `install.packages("bookdown")`. If you already have it, update to the [latest version](https://CRAN.R-project.org/package=bookdown).
 
 - [ ] 2. Render locally with `bookdown::render_book("index.Rmd")`.
 
