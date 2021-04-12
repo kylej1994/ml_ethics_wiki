@@ -3,7 +3,10 @@ title: "ML Ethics Wiki"
 author: "Kyle Jablon"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+bibliography: references.bib
+link-citations: yes
+colorlinks: yes
 ---
 
-# Down the rabbit-hole
+Welcome to the ML Ethics Wiki!
 

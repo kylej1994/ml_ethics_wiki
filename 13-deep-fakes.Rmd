@@ -1,0 +1,25 @@
+# Ethics: Deep Fakes
+
+
+
+## Introduction 
+
+Deep Fakes are worth their own (minor) module, because the problems posed by them are very specific, and the problems posed by them are all very new in nature. This module will not go into the technology, and how it works, because the ethical issues exist regardless of how the technology works.
+
+A deep fake is essentially "computer-manipulated images [or video] in which one person's likeness has been used to replace that of another" [@kelion2020]. The core ethical issue is that "they mimic a person’s likeness without their permission", but their mass destructive content comes from their ability to easily spread misinformation [@goodwine2020]. 
+
+The history of deep fakes is an interesting one. The first recorded use of the term began in 2017 when a reddit user began creating pornographic content [@goodwine2020].  For one, their use started with pornography. A recent study estimated that roughly 96\% of all deep fakes content is pornographic [@agarwal2020]. Notably in 2019, an app called "DeepNude" enabled users to create their own pornographic deep fakes. In 2020, President Trump amplified through his twitter account,  a deep fake of Joe Biden [@goodwine2020].
+
+Deep fakes, as previously discussed, are already under the purview of the national government: the 2019 National Defense Authorization Act set up standards for Congress and the Pentagon to address the creation of Deep Fakes by foreign governments and set up funding for "Deep Fake competitions" [@chipman2019].
+
+## What can be done
+
+To be honest, very little can be done about deep fakes right now. The technology exists, and while it's limited, it's already out there. The founder of Ctrl Shift Face, a popular deep fake YouTube channel has remarked that “If there ever will be a harmful deepfake, Facebook is the place where it will spread [...]In that case, what’s the bigger issue? The medium or the platform?” [@agarwal2020]. In such a case, it is really up to engineers and technology companies to recognize if there is a risk for deep fake abuse on their platform. Most companies will likely  not have to deal with this, but any company that involves video as a key part of their business model is going to face deep fake issues at some point in the future.
+
+There appears to be promising technology to detect deep fakes. In particular, Microsoft, has developed a set of tools to detect deep fakes [@kelion2020], suggesting that one promising approach is to train neural networks to develop deep fakes. 
+
+In addition, while there appears to be a growing desire to "legislate" deep fakes, the cat is out of the bag and the technology already exists. What will likely be possible is imposing strict penalties from those who have abuse deep fakes to either manipulate others with misinformation. 
+
+Another recently proposed solution is to essentially "watermark" all videos [@chivers2019]. By watermarking all videos, essentially the source of the video could be traced back, and discovered by any investigators dealing with the video.
+
+Education, and awareness are necessary. While media literacy is not a panacaea solution, greater awareness of deep fakes and how to spot them is necessary for when they do appear in the future.

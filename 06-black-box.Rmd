@@ -1,0 +1,54 @@
+# Ethics: Black Box Models
+
+## The Problem
+
+From Philip K Dick's science fiction classic "Minority Report" describing the notion of "precrime": 
+
+```
+“You’re acquainted with the theory of precrime, of course. I presume we can take that for granted.”
+
+ “I have the information publicly available,” Witwer replied. “With the aid of your precog mutants, you’ve
+boldly and successfully abolished the post-crime punitive system of jails and fines. 
+
+[...] 
+
+Anderton said: “You’ve probably already grasped the basic legalistic drawback to precrime methodology. We’re taking in individuals who have broken no law.”
+
+ “But surely, they will,” Witwer affirmed with conviction.
+ 
+ “Happily, they don’t — because we get to them first, before they can commit an act of violence. So the
+commission of the crime itself is absolute metaphysics. We can claim they are culpable. They, on the other
+hand, can eternally claim they’re innocent. And, in a sense, they are innocent.”
+```
+
+The notion of "precrime" isn't merely science fiction. In Philip K. Dick's story, "precog" mutants who can see the future are used to predict future crimes and then charge and jail prospective offenders, despite the fact that they have not committed any crimes. In the real world, there are parallels that already exist. The COMPAS system is used to predict rates of re offending by prospective criminals, and adjust their sentences accordingly. More importantly, this software is proprietary, and uses up to 130 factors, "including criminal history, age, gender and other information, such as whether their mother was ever arrested or whether they have trouble paying bills" [@rudin2018].  COMPAS has made mistakes in the past, for example, in 2016, an inmate was mistakenly denied parole because an employee mistakenly filled an incorrect answer on a form [@rudin2018]. These risk scores are used for sentencing requirements, and have been shown to disproportionately rate black candidates as being "higher risk" [@angwin2016].
+
+These are all examples of "black box models". Black box models refer primarily to those models relationship between inputs and generated outputs are not human interpretable. Black box models do not merely refer to machine learning models, although that is primarily where they come up; a financial model can be a black box model if the relationship between inputs and outputs is inscrutable to common users. In other words, a model such as COMPAS is a black box model, in so far as its logic and mechanisms are a invisible to the user, and cannot be deciphered. There is merely the data, the model, and an output which is spit out. Black box models have particular issues in the sense that they can easily exacerbate existing issues of inequality, and make it difficult to carve out exceptions to cases that ought not be treated in a simple way.
+
+<!--- %\subsubsection{Blackbox Models and Race}
+% [talk about how it is really really bad in some fields]
+
+
+% [Graphic] Investopedia: https://images.app.goo.gl/9AvnT2qph5YDwx877 --->
+
+## Which models are black box models
+
+Models can become "black boxes" for a few primary reasons: typically this can be because a model is proprietary, user impenetrable, or their structure is quite literally not human scrutable. For example, COMPAS, is a proprietary model, an interpretable model that does not explain its predictions to its users is still a black box, and finally a model where no one understands how it works would not be human scrutable. 
+
+## What can be done
+
+It should be noted that there are black box models, and black box systems. Not every model necessarily needs to be an open book. Google Translate is an incredibly complicated neural network model, and while it would be nice for it to be human scrutable, but it is likely unnecessary for this to be totally human interpretable. Meanwhile, an algorithm that prices insurance rates for different people should be explainable, and a black box system creates an opportunity for discrimination. This distinction is important, because merely constructing an explainable model does not necessarily lead to explainable systems. In other words, having an interpretable model is a necessary but insufficient standard for an interpretable machine learning system. 
+
+The best solution of all is a simple model, and regression models are typically the most straight forward of all. If a simple model can get the job done, it goes without saying that that should always be the first option. Regression models have extensive explainability tools built around them, such as LIME or SHAP, and are also easiest to build more tooling on top of, due to their widespread use and availability. 
+
+If the typical regression models (OLS and logistic) cannot do the trick it has been suggested that the most powerful and explainable model possible is an xgboost model when used in conjunction with shapley [@hall2018]. In particular, the ability to manually set monotonicity of the input features results in incredibly interpretable models. For example, if one is predicting health insurance premiums, age can be monotonically related to one's premiums and thus as age increases then one's premiums will naturally go up. In addition to the SHAP framework, which is a game theoretic approach to explainable ML, this is an incredibly powerful tool.
+ 
+Another mechanism if a model is particularly complicated, then a user can train a complicated model and then train an explainable model to predict the output of the complicated model. This solution typically results in a moderate degrade in accuracy, but is nonetheless a very popular workaround to convert a black box model to an explainable one.
+
+[@mitchell2019] has suggested standardizing model cards for educating cross-functional stakeholders on machine learning. Akin to a nutritional scorecard, but for a machine learning model, this is a model intended to standardize information about a machine learning model on a one-pager. This is an important step in standardizing explainable modeling. A model card would include information on training data, and the level of explainability provided by the model and system as a whole, in addition to any possible gaps in its coverage and possible biases. The mere act of standardizing these at an organization can go a long way towards norm creation in the indsutry as a whole.
+
+## Resources
+
+**Interpretable ML Book by Christoph Molnar: ** https://christophm.github.io/interpretable-ml-book/ 
+
+**The Minority Report by Philip K. Dick: ** https://cwanderson.org/wp-content/uploads/2011/11/Philip-K-Dick-The-Minority-Report.pdf 

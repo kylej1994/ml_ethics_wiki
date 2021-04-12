@@ -1,0 +1,37 @@
+<!--- csl: taylor-and-francis-apa.csl -->
+# Introduction
+
+## The Problem
+
+The field of technology is facing an "ethics crisis"
+
+Technology does not exist on an island by itself; technology is used by people, and is often used to allocate resources that are inherently finite in nature. Throughout this process, technology becomes political, whether one likes it or not.  There are inherently consequences for this type of thinking, and, one cannot just look away. 
+
+## Who is this for?
+
+The tech ethics crisis is not merely algorithmic, and affects the industry at large. However, almost no problem exists in a vacuum. Issues of diversity in the field do have impacts on issues such as algorithmic discrimination. Issues of privacy also have impacts on dataset bias. As such, this website will function as a self-directed resource for tech ethics in general, with a focus on machine learning and data science ethics in particular. This site hopes to elucidate many (but obviously not all) of the ethical issues practitioners in technology and machine learning face, elucidate how to identify when these situations come up, and offer up appropriate solutions that work at an institutional level. 
+
+As for the talent, because demand vastly exceeds supply for high quality engineering talent (at least in America). Engineers, or technology workers are empowered in ways that many other workers are not. In addition, employees in the industry care about behaving ethically. A 2017 poll of data science and machine learning practitioners on the industry site, kdnuggets found 76\% of respondents agree with the sentiment that "data science should include ethics training" [@piatetsky2015]. Ultimately, the target audience for this wiki includes data engineers, data scientists, machine learning engineers, data analysts, and all people who work in the greater data landscape that must grapple with the ethical issues regarding ethics and machine learning.
+
+## Why do ethics matter?
+
+For a Kantian, ethics matters because the the only good in and of itself is a good will. There is no other good in the world, because it can always be corrupted by its context. Bravery may be an admirable trait, but not for an SS officer. Thus, the only good in and itself is a good will. A good will must necessarily be motivated only by reason, it cannot be influenced by anything because the only thing known, a priori (before all knowledge) is that it is rational. Thus, this reason must be the guiding principle of its actions. Thus, the rational being is forced to acknowledge that if it recognizes any sense of good, then it must also recognize reason. In short, ethics matters because human beings know better.
+
+On a more practical level, ethics is the name of the game right now at major artificial intelligence computer conferences. According to Matthew Kearns, a professor of Computer Science, "The academic research in the field has been deployed at massive scale on society, [...] with that comes this higher responsibility.” [@hutson2021]. Regulation will likely arrive at some point in the future, but in the meantime, the field is governed by norms of acceptable and unacceptable behaviour, and self-policing is the norm. Meanwhile, practitioners themselves are increasingly concerned with issues of ethics, and even if one practitioner may view themselves as "just a researcher", it is quite likely that their peers will be quite so generous [@hutson2021]. Thus, if one considers oneself part of the AI/ML/tech community, it is inevitable that one is required to concern oneself with ethics. 
+
+## Why does sociology matter?
+
+If technology is a mere tool, then it is certainly relevant who wields and utilizes the tool. Sociology is "the study of human social relationships and institutions" [@unc]. One of the most damaging myths promulgated about technology is that technology exists in a vacuum; this is untrue. The technology built by engineers is a component of other technological and societal systems. A search engine is not just a search engine; if it is adopted, it will be used by police officers, teachers, and students who all come to the product with their own assumptions.
+
+## Why does institutionalization matter?
+
+When software engineers build products, they are often asked "but how will it scale?" The dilemma for ethical issues is the same. Even if one individual is faced with an ethical quandary, and they resolve it, oftentimes, it does not solve the issue for the institution. Just as engineering products must scale for data, or number of users; so too must ethical solutions to technical problems must also scale for engineers, and organizations.  Thus, this process of "institutionalization" is one that will come up again and again throughout this website. In addition, this also comes with an acknowledgement that readers are just people; there is only so much that one person can do to change an organization (especially at lower levels). However, there is still much that can be done by rank and file employees in order to do change both what they can, and pave a smoother path for others who might come after them. 
+
+## What is machine learning and why is it relevant?
+
+As the great Aurélien Géron defines it, "Machine Learning is the science (and art) of programming computers so they can learn from data" [@geron2019]. Practitioners in the field of machine learning are often called machine learning engineers, research engineers, data scientists, research scientists, and occasionally software engineers. 
+
+## Additional Resources
+**An article to read: ** "Do Artifacts Have Politics?" by Langdon Winner http://moxi.dk/reference/Winner-Do-Artifacts-Have-Politics-1980.pdf
+
+**An (fun) story to read that involves ML: ** "Malak" by Peter Watts https://rifters.com/real/shorts/PeterWatts_Malak.pdf 

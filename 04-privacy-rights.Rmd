@@ -1,0 +1,33 @@
+# Ethics: Privacy Rights
+
+## What do Privacy Rights have to do with tech? 
+
+The relationship between privacy rights and technology has become distorted in the past series of decades. In particular, the rise of advanced machine learning algorithms and the mass collection of data have created a series of ethical more complicated than those in George Orwell's 1984. 
+
+Consider the following example, in the 1990's CCTV was standard in retail stores across America. Suppose McDonald's for instance chose to take all CCTV footage from all stores across the United States and collect said CCTV footage in a single database and then apply image recognition software to automatically flag incidences of stealing or vandalism in stores and then call police automatically whenever such incidents occurred. To the knowledge of this author, McDonald's, nor any other major retail chain has made any attempt to engage in the prior action. However, it is indisputable that such a surveillence system, as described before could theoretically be built. Facebook regularly handles petabytes of data, and also applies image recognition software onto it's own stockpile of images. 
+
+Similarly, consider the Cambridge Analytica scandal. Cambridge Analytica harvested Facebook user data, and claimed to create targeted "user profiles" that were of such levels of specificty that actors could inject hyper specific content into users newsfeeds to shape their reality. 
+
+This is all before delving into security issues. If a health insurance provider collects a social security number, and then gets hacked then all users social security numbers could be considered vulnerable. The scale of security breaches appears to be magnitudes larger than what was possible decades prior.
+
+The issue is the same regardless, the scale of data collection and amplification of computing power has made possible techniques that were improbable decades ago, bringing new rise to data privacy issues.
+
+## What are privacy rights?
+
+The standard model of privacy regulation encompasses the "notice and consent" model, wherein individuals are notified that their data is being collected, and that they must consent to the collection of their data [@kerry2020]. This is most evident in the barrage of user agreements that individuals must deal with in signing up for any service. However, this model simply doesn't scale well to deal with newer data issues, wherein data is being collected by user browsing, or by public cameras that don't possibly have any opportunity to inform users that their data is being collected. 
+
+## Rules of thumb
+Collect only the data necessary. While it is certainly nice to maximize the amount of data collected, it is not without risk. Collecting unnecessary data opens up a company up to additional security risks, and can also create scaling issues for a data infrastructure. Most importantly though, it's simply unnecessary, and opens the door to potential legal liability. 
+
+Tell users what data is being collected, and what it's being used for. 
+
+Encrypt personally identifiable information. Plain text versions of social security numbers or passwords should ever be stored. There are a variety of encryption schemes, but the most standard involves salting a password, and then hashing the result. 
+
+Apathy is not an excuse. Many practitioners defend the ethically questionable nature of the software they create by positing that they are "just an engineer" or "just a researcher". This is simply untrue. The notion that someone could cordone off their impact to society and the world to one minor slice of their identity is utterly fanciful. Rightly or wrongly, all are judged for their contributions to society. Those who are "just researchers" must take extra steps to ensure that their research is not used in a manner that is unethical.
+
+Don't create surveillance software. If software has shades of 1984, just don't do it. 
+
+## Resources
+
+**An article to read: ** [___]
+**A story to read: ** [____]
