@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Ethics: Dataset bias and it’s consequences | ML Ethics Wiki</title>
+  <meta name="description" content="Chapter 2 Ethics: Dataset bias and it’s consequences | ML Ethics Wiki" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Ethics: Dataset bias and it’s consequences | ML Ethics Wiki" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Ethics: Dataset bias and it’s consequences | ML Ethics Wiki" />
+  
+  
+  
+
+<meta name="author" content="Kyle Jablon" />
+
+
+<meta name="date" content="2021-04-26" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="02-intro.html"/>
+<link rel="next" href="04-privacy-rights.html"/>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">MLEthics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="02-intro.html"><a href="02-intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="02-intro.html"><a href="02-intro.html#the-problem"><i class="fa fa-check"></i><b>1.1</b> The Problem</a></li>
+<li class="chapter" data-level="1.2" data-path="02-intro.html"><a href="02-intro.html#who-is-this-for"><i class="fa fa-check"></i><b>1.2</b> Who is this for?</a></li>
+<li class="chapter" data-level="1.3" data-path="02-intro.html"><a href="02-intro.html#why-do-ethics-matter"><i class="fa fa-check"></i><b>1.3</b> Why do ethics matter?</a></li>
+<li class="chapter" data-level="1.4" data-path="02-intro.html"><a href="02-intro.html#why-does-sociology-matter"><i class="fa fa-check"></i><b>1.4</b> Why does sociology matter?</a></li>
+<li class="chapter" data-level="1.5" data-path="02-intro.html"><a href="02-intro.html#why-does-institutionalization-matter"><i class="fa fa-check"></i><b>1.5</b> Why does institutionalization matter?</a></li>
+<li class="chapter" data-level="1.6" data-path="02-intro.html"><a href="02-intro.html#what-is-machine-learning-and-why-is-it-relevant"><i class="fa fa-check"></i><b>1.6</b> What is machine learning and why is it relevant?</a></li>
+<li class="chapter" data-level="1.7" data-path="02-intro.html"><a href="02-intro.html#additional-resources"><i class="fa fa-check"></i><b>1.7</b> Additional Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="03-dataset-bias.html"><a href="03-dataset-bias.html"><i class="fa fa-check"></i><b>2</b> Ethics: Dataset bias and it’s consequences</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="03-dataset-bias.html"><a href="03-dataset-bias.html#introduction-1"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="03-dataset-bias.html"><a href="03-dataset-bias.html#the-problem-1"><i class="fa fa-check"></i><b>2.2</b> The problem</a></li>
+<li class="chapter" data-level="2.3" data-path="03-dataset-bias.html"><a href="03-dataset-bias.html#how-to-identify-the-problem"><i class="fa fa-check"></i><b>2.3</b> How to identify the problem?</a></li>
+<li class="chapter" data-level="2.4" data-path="03-dataset-bias.html"><a href="03-dataset-bias.html#resources"><i class="fa fa-check"></i><b>2.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="04-privacy-rights.html"><a href="04-privacy-rights.html"><i class="fa fa-check"></i><b>3</b> Ethics: Privacy Rights</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="04-privacy-rights.html"><a href="04-privacy-rights.html#what-do-privacy-rights-have-to-do-with-tech"><i class="fa fa-check"></i><b>3.1</b> What do Privacy Rights have to do with tech?</a></li>
+<li class="chapter" data-level="3.2" data-path="04-privacy-rights.html"><a href="04-privacy-rights.html#what-are-privacy-rights"><i class="fa fa-check"></i><b>3.2</b> What are privacy rights?</a></li>
+<li class="chapter" data-level="3.3" data-path="04-privacy-rights.html"><a href="04-privacy-rights.html#rules-of-thumb"><i class="fa fa-check"></i><b>3.3</b> Rules of thumb</a></li>
+<li class="chapter" data-level="3.4" data-path="04-privacy-rights.html"><a href="04-privacy-rights.html#resources-1"><i class="fa fa-check"></i><b>3.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="05-environment.html"><a href="05-environment.html"><i class="fa fa-check"></i><b>4</b> Ethics: Environmental Costs of Machine Learning</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="05-environment.html"><a href="05-environment.html#the-problem-2"><i class="fa fa-check"></i><b>4.1</b> The Problem</a></li>
+<li class="chapter" data-level="4.2" data-path="05-environment.html"><a href="05-environment.html#how-to-identify-the-problem-1"><i class="fa fa-check"></i><b>4.2</b> How to identify the problem</a></li>
+<li class="chapter" data-level="4.3" data-path="05-environment.html"><a href="05-environment.html#what-can-be-done"><i class="fa fa-check"></i><b>4.3</b> What can be done</a></li>
+<li class="chapter" data-level="4.4" data-path="05-environment.html"><a href="05-environment.html#resources-2"><i class="fa fa-check"></i><b>4.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="06-black-box.html"><a href="06-black-box.html"><i class="fa fa-check"></i><b>5</b> Ethics: Black Box Models</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="06-black-box.html"><a href="06-black-box.html#the-problem-3"><i class="fa fa-check"></i><b>5.1</b> The Problem</a></li>
+<li class="chapter" data-level="5.2" data-path="06-black-box.html"><a href="06-black-box.html#which-models-are-black-box-models"><i class="fa fa-check"></i><b>5.2</b> Which models are black box models</a></li>
+<li class="chapter" data-level="5.3" data-path="06-black-box.html"><a href="06-black-box.html#what-can-be-done-1"><i class="fa fa-check"></i><b>5.3</b> What can be done</a></li>
+<li class="chapter" data-level="5.4" data-path="06-black-box.html"><a href="06-black-box.html#resources-3"><i class="fa fa-check"></i><b>5.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="07-amplification.html"><a href="07-amplification.html"><i class="fa fa-check"></i><b>6</b> Ethics: Amplification</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="07-amplification.html"><a href="07-amplification.html#the-problem-4"><i class="fa fa-check"></i><b>6.1</b> The Problem</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="07-amplification.html"><a href="07-amplification.html#algorithmic-determinism"><i class="fa fa-check"></i><b>6.1.1</b> Algorithmic Determinism</a></li>
+<li class="chapter" data-level="6.1.2" data-path="07-amplification.html"><a href="07-amplification.html#amplifying-misinformation"><i class="fa fa-check"></i><b>6.1.2</b> Amplifying Misinformation</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="07-amplification.html"><a href="07-amplification.html#what-can-be-done-2"><i class="fa fa-check"></i><b>6.2</b> What can be done</a></li>
+<li class="chapter" data-level="6.3" data-path="07-amplification.html"><a href="07-amplification.html#resources-4"><i class="fa fa-check"></i><b>6.3</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="08-deep-fakes.html"><a href="08-deep-fakes.html"><i class="fa fa-check"></i><b>7</b> Ethics: Deep Fakes</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="08-deep-fakes.html"><a href="08-deep-fakes.html#introduction-2"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="08-deep-fakes.html"><a href="08-deep-fakes.html#what-can-be-done-3"><i class="fa fa-check"></i><b>7.2</b> What can be done</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="09-solutionism.html"><a href="09-solutionism.html"><i class="fa fa-check"></i><b>8</b> Sociology: Technological Solutionism</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="09-solutionism.html"><a href="09-solutionism.html#what-is-technological-solutionism"><i class="fa fa-check"></i><b>8.1</b> What is technological solutionism?</a></li>
+<li class="chapter" data-level="8.2" data-path="09-solutionism.html"><a href="09-solutionism.html#the-problem-5"><i class="fa fa-check"></i><b>8.2</b> The problem</a></li>
+<li class="chapter" data-level="8.3" data-path="09-solutionism.html"><a href="09-solutionism.html#what-can-be-done-4"><i class="fa fa-check"></i><b>8.3</b> What can be done?</a></li>
+<li class="chapter" data-level="8.4" data-path="09-solutionism.html"><a href="09-solutionism.html#resources-5"><i class="fa fa-check"></i><b>8.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="10-myths.html"><a href="10-myths.html"><i class="fa fa-check"></i><b>9</b> Sociology: Myths about Silicon Valley and its Workers</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="10-myths.html"><a href="10-myths.html#introduction-3"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="10-myths.html"><a href="10-myths.html#diversity-in-tech-is-a-pipeline-problem"><i class="fa fa-check"></i><b>9.2</b> Diversity in Tech is a “pipeline problem”</a></li>
+<li class="chapter" data-level="9.3" data-path="10-myths.html"><a href="10-myths.html#systems-need-to-be-maintained"><i class="fa fa-check"></i><b>9.3</b> Systems need to be maintained</a></li>
+<li class="chapter" data-level="9.4" data-path="10-myths.html"><a href="10-myths.html#resources-6"><i class="fa fa-check"></i><b>9.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="11-gdpr.html"><a href="11-gdpr.html"><i class="fa fa-check"></i><b>10</b> Law: GDPR</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="11-gdpr.html"><a href="11-gdpr.html#what-is-gdpr"><i class="fa fa-check"></i><b>10.1</b> What is GDPR?</a></li>
+<li class="chapter" data-level="10.2" data-path="11-gdpr.html"><a href="11-gdpr.html#what-are-the-current-problems-with-gdpr"><i class="fa fa-check"></i><b>10.2</b> What are the current problems with GDPR?</a></li>
+<li class="chapter" data-level="10.3" data-path="11-gdpr.html"><a href="11-gdpr.html#how-is-gdpr-relevant-to-regulation-around-the-world"><i class="fa fa-check"></i><b>10.3</b> How is GDPR relevant to regulation around the world?</a></li>
+<li class="chapter" data-level="10.4" data-path="11-gdpr.html"><a href="11-gdpr.html#resources-7"><i class="fa fa-check"></i><b>10.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="12-us.html"><a href="12-us.html"><i class="fa fa-check"></i><b>11</b> Law: Regulation in the United States</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="12-us.html"><a href="12-us.html#introduction-4"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="12-us.html"><a href="12-us.html#the-national-discussion"><i class="fa fa-check"></i><b>11.2</b> The National Discussion</a></li>
+<li class="chapter" data-level="11.3" data-path="12-us.html"><a href="12-us.html#california"><i class="fa fa-check"></i><b>11.3</b> California</a></li>
+<li class="chapter" data-level="11.4" data-path="12-us.html"><a href="12-us.html#virginia"><i class="fa fa-check"></i><b>11.4</b> Virginia</a></li>
+<li class="chapter" data-level="11.5" data-path="12-us.html"><a href="12-us.html#illinois"><i class="fa fa-check"></i><b>11.5</b> Illinois</a></li>
+<li class="chapter" data-level="11.6" data-path="12-us.html"><a href="12-us.html#other-states"><i class="fa fa-check"></i><b>11.6</b> Other States</a></li>
+<li class="chapter" data-level="11.7" data-path="12-us.html"><a href="12-us.html#conclusion"><i class="fa fa-check"></i><b>11.7</b> Conclusion</a></li>
+<li class="chapter" data-level="11.8" data-path="12-us.html"><a href="12-us.html#resources-8"><i class="fa fa-check"></i><b>11.8</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="13-future.html"><a href="13-future.html"><i class="fa fa-check"></i><b>12</b> Law: The future of regulation</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="13-future.html"><a href="13-future.html#introduction-5"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
+<li class="chapter" data-level="12.2" data-path="13-future.html"><a href="13-future.html#the-short-term"><i class="fa fa-check"></i><b>12.2</b> The Short Term</a></li>
+<li class="chapter" data-level="12.3" data-path="13-future.html"><a href="13-future.html#the-long-term-view"><i class="fa fa-check"></i><b>12.3</b> The Long Term View</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="14-references.html"><a href="14-references.html"><i class="fa fa-check"></i><b>13</b> References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ML Ethics Wiki</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="ethics-dataset-bias-and-its-consequences" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Ethics: Dataset bias and it’s consequences</h1>
+<div id="introduction-1" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Introduction</h2>
+<p>Facial Recognition software has disproportinately higher error rates on both women, and darker skinned individuals. A 2018 study on three commerical grade gender-classifiers found error rates in classifying darker skinned females were up to 42 times greater than error rates in classifying lighter skinned men <span class="citation">(<a href="14-references.html#ref-gebru2018" role="doc-biblioref">Buolamwini and Gebru, n.d.</a>)</span>. Across the board classifiers performed better in classifying male faces than female faces, and all classifiers performed better on lighter faces than on darker faces. These classifiers were not developed by unknown companies, they were developed by IBM, Microsoft, and Face++. In other words, these were commercial products that were developed for the sole purpose of gender classification.</p>
+<p>Even on a more practical level <span class="citation"><a href="14-references.html#ref-torralba2011" role="doc-biblioref">Torralba and Efros</a> (<a href="14-references.html#ref-torralba2011" role="doc-biblioref">2011</a>)</span> lays out the issue with dataset bias amongst common computer vision datasets. Specifically, by training a model to detect objects amongst multiple common datasets in the field, and then making predictions on other common datasets in the field, one would expect relatively decent performance. In fact, the results show some severe problems. For example, one model tagged an image of a sofa as a “car.” The issue is, again, in effect, dataset bias and a lack of representation from the datasets that are available.</p>
+</div>
+<div id="the-problem-1" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> The problem</h2>
+<p>There are over 23 sorts of bias, many of which will be listed below. Most commonly, the issues appear in two forms: exclusion bias, or measurement bias.</p>
+<p>Exclusion bias occurs when the sample population does not represent the population distribution as a whole. Perhaps a health insurance company seeks to build a model, and while they are trying to create a model for the entire country, they decide to pull training data from the city of Denver. While Denver is a perfectly fine city, the population distribution of Denver will not reflect the United States as a whole. According to the US Census, Denver is roughly 55% white and 10% black, whereas Colorado as a whole is roughly 68% white and 5% black, and the US as a whole is roughly 60% white and 13% white. Obviously no dataset is going to be perfect, but efforts must be made to rebalance the dataset against the specific sort of imbalance ocurring here.</p>
+<p>Exclusion bias does not just occur with regards to racial imbalance, it can also occur due to improper balancing of socioeconomic status, age, or gender. In addition, exclusion bias does not merely affect populations; it can also refer to the actual data collected. For example, predictive software has been developed to predict rates of reoffending for prisoners. In turn, this data is then used to determine length of sentence. Individuals with high scores are likely to receive longer sentences. A multitude of data points go into these statistical models, and an unfortunate side effect of much of this research is that it discriminates against it’s users. Individuals with incredibly similar histories, but different racial backgrounds experience vastly different sentences <span class="citation">(<a href="14-references.html#ref-angwin2016" role="doc-biblioref">Julia Angwin and Kirchner 2016</a>)</span>.</p>
+<div class="figure"><span id="fig:propublica"></span>
+<img src="imgs/propublica_reoffend.jpg" alt="Reoffending rates in Florida"  />
+<p class="caption">
+Figure 2.1: Reoffending rates in Florida
+</p>
+</div>
+<p>Measurement bias occurs when the actual measurement of the data collected is biased. In other words, the process of collecting data could be unduly influencing the data being collected. A 2016 by <span class="citation">(<a href="14-references.html#ref-hoffman2016" role="doc-biblioref">Hoffman et al. 2016</a>)</span> found that roughly half of medical students in training falsely believed black patients had thicker skin than white patients, and were more tolerant of pain; even when black patients complained about pain, doctors were less likely to note the pain or give them the benefit of the doubt. This is validated by research that shows that hispanic patients are 22% less likely to receive opiates than white patients, and black patients are 22% less likely to receive “any analgesia” for pain <span class="citation">(<a href="14-references.html#ref-meghani2012" role="doc-biblioref">Meghani, Byun, and Gallagher 2012</a>)</span>. Consider a model developed in the medical field that gauged “pain claimed by patients” as a feature. Or consider a model that classifies X-Rays and checks for malignant growths; training data comes from a variety of different X-Ray machines, but if one machine generates “stretched” images that while not necessarily faulty are significantly different from the other machines, there would be measurement bias introduced into the dataset.</p>
+<p>It is important to describe the different sorts of bias, because it elucidates the inherently biased nature of data. <span class="citation"><a href="14-references.html#ref-mehrabi2019" role="doc-biblioref">Mehrabi et al.</a> (<a href="14-references.html#ref-mehrabi2019" role="doc-biblioref">2019</a>)</span> describes the following types of bias:</p>
+<ul>
+<li>Historical Bias</li>
+<li>Representation Bias</li>
+<li>Measurement Bias</li>
+<li>Evaluation Bias</li>
+<li>Aggregation Bias</li>
+<li>Population Bias</li>
+<li>Simpson’s Paradox - A trend that</li>
+<li>Longitudnal Data Fallacy</li>
+<li>Sampling Bias - “a trend, association, or characteristic observed in underlying subgroups may be quite different from association or characteristic observed when these subgroups are aggregated”</li>
+<li>Behavioral Bias</li>
+<li>Content Production Bias</li>
+<li>Linking Bias</li>
+<li>Temporal Bias</li>
+<li>Popularity Bias</li>
+<li>Algorithmic Bias</li>
+<li>User Interaction Bias</li>
+<li>Social Bias</li>
+<li>Emergent Bias</li>
+<li>Self-selection Bias</li>
+<li>Omitted Variable Bias</li>
+<li>Cause-Effect Bias</li>
+<li>Observer Bias</li>
+<li>Funding Bias</li>
+</ul>
+</div>
+<div id="how-to-identify-the-problem" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> How to identify the problem?</h2>
+<p>The first thing that can be done is to recognize that every dataset is biased. Datasets are generated on the actions of human behaviour, and humans have their own preconceived notions, and biases. Absent any filtering, or adjustment done by a machine learning or data science practitioner, these biases will merely get algorithmically reinforced. The old adage that “numbers don’t lie” is perhaps true, but data frequently does. It is up to practitioners to identify manners in which selection bias could be occurring in their dataset, prior to utilizing it. From there the next step is to determine if any reconciliation needs to be made.
+## What can be done?</p>
+<p>Most commonly, dataset bias manifests itself as a form of selection bias in one’s dataset. As such, the solutions to selection bias are often to resample the dataset in order to rectify the bias.</p>
+<div class="figure"><span id="fig:grief"></span>
+<img src="imgs/torralba_grief.jpg" alt="A comic from Antonio Torralba's paper "  />
+<p class="caption">
+Figure 2.2: A comic from Antonio Torralba’s paper
+</p>
+</div>
+<p>In the case of measurement bias, it must be up to the data scientist to assess any possible sources of measurement bias that could be generated in the collection of data. It may be up to a practitioner to either significantly modify a given feature, or reject it entirely if it affects models significantly.</p>
+<p>A simple solution is to create extreme data and feed it into a model. Even if a practitioner does not have the ability to control the qualify of their training data on a large scale, they do have the ability to create smaller test sets that are more balanced, and then feed those into predictive models as final “sanity checks.”</p>
+<p>Finally, logging and tracking is an incredibly important mechanism with models that have disparate issues with different subgroups. In many cases, practitioners should be able to assess if a model does poorly with certain groups of people prior to launching the model in production. Noting a models deficiencies to stakeholders is a non-negotiable aspect of doing one’s jobs, and that extends to issues of equity.</p>
+</div>
+<div id="resources" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Resources</h2>
+<p><strong>An article to read: </strong> “Garbage in, Garbage Out” by Claire Garvey <a href="https://www.flawedfacedata.com/#" class="uri">https://www.flawedfacedata.com/#</a></p>
+<p><strong>A story to read: </strong> “Unbiased look at dataset bias” by Antonio Torralba <a href="https://people.csail.mit.edu/torralba/publications/datasets_cvpr11.pdf" class="uri">https://people.csail.mit.edu/torralba/publications/datasets_cvpr11.pdf</a></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="02-intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="04-privacy-rights.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-dataset-bias.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/kylej1994/ml_ethics_wiki/blob/master/03-dataset-bias.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

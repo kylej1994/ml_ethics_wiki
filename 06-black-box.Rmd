@@ -25,6 +25,8 @@ The notion of "precrime" isn't merely science fiction. In Philip K. Dick's story
 
 These are all examples of "black box models". Black box models refer primarily to those models relationship between inputs and generated outputs are not human interpretable. Black box models do not merely refer to machine learning models, although that is primarily where they come up; a financial model can be a black box model if the relationship between inputs and outputs is inscrutable to common users. In other words, a model such as COMPAS is a black box model, in so far as its logic and mechanisms are a invisible to the user, and cannot be deciphered. There is merely the data, the model, and an output which is spit out. Black box models have particular issues in the sense that they can easily exacerbate existing issues of inequality, and make it difficult to carve out exceptions to cases that ought not be treated in a simple way.
 
+In particular, black box models can be particularly problematic in exacerbating underlying racial or socioeconomic relationships in data. For example, a black box model that assigns insurance premiums can "learn" notions of race from the underlying characteristics of data, such as perhaps zip code or other socioeconomic information and then amplify existing underlying biases. The nature of these models as black boxes means that they can essentially automate pre-existing inequality with little to no accountability for the problematic nature of the model.  
+
 <!--- %\subsubsection{Blackbox Models and Race}
 % [talk about how it is really really bad in some fields]
 
@@ -45,7 +47,7 @@ If the typical regression models (OLS and logistic) cannot do the trick it has b
  
 Another mechanism if a model is particularly complicated, then a user can train a complicated model and then train an explainable model to predict the output of the complicated model. This solution typically results in a moderate degrade in accuracy, but is nonetheless a very popular workaround to convert a black box model to an explainable one.
 
-[@mitchell2019] has suggested standardizing model cards for educating cross-functional stakeholders on machine learning. Akin to a nutritional scorecard, but for a machine learning model, this is a model intended to standardize information about a machine learning model on a one-pager. This is an important step in standardizing explainable modeling. A model card would include information on training data, and the level of explainability provided by the model and system as a whole, in addition to any possible gaps in its coverage and possible biases. The mere act of standardizing these at an organization can go a long way towards norm creation in the indsutry as a whole.
+@mitchell2019 has suggested standardizing model cards for educating cross-functional stakeholders on machine learning. Akin to a nutritional scorecard, but for a machine learning model, this is a model intended to standardize information about a machine learning model on a one-pager. This is an important step in standardizing explainable modeling. A model card would include information on training data, and the level of explainability provided by the model and system as a whole, in addition to any possible gaps in its coverage and possible biases. The mere act of standardizing these at an organization can go a long way towards norm creation in the indsutry as a whole.
 
 ## Resources
 

@@ -3,7 +3,11 @@
 
 ## The Problem
 
-The field of technology is facing an "ethics crisis"
+The field of technology is facing an "ethics crisis". 
+
+```{r newyorker, echo = FALSE, fig.cap = "An article from the New Yorker",width=500}
+knitr::include_graphics("imgs/newyorker_unethical.jpg")
+```
 
 Technology does not exist on an island by itself; technology is used by people, and is often used to allocate resources that are inherently finite in nature. Throughout this process, technology becomes political, whether one likes it or not.  There are inherently consequences for this type of thinking, and, one cannot just look away. 
 
@@ -12,6 +16,10 @@ Technology does not exist on an island by itself; technology is used by people, 
 The tech ethics crisis is not merely algorithmic, and affects the industry at large. However, almost no problem exists in a vacuum. Issues of diversity in the field do have impacts on issues such as algorithmic discrimination. Issues of privacy also have impacts on dataset bias. As such, this website will function as a self-directed resource for tech ethics in general, with a focus on machine learning and data science ethics in particular. This site hopes to elucidate many (but obviously not all) of the ethical issues practitioners in technology and machine learning face, elucidate how to identify when these situations come up, and offer up appropriate solutions that work at an institutional level. 
 
 As for the talent, because demand vastly exceeds supply for high quality engineering talent (at least in America). Engineers, or technology workers are empowered in ways that many other workers are not. In addition, employees in the industry care about behaving ethically. A 2017 poll of data science and machine learning practitioners on the industry site, kdnuggets found 76\% of respondents agree with the sentiment that "data science should include ethics training" [@piatetsky2015]. Ultimately, the target audience for this wiki includes data engineers, data scientists, machine learning engineers, data analysts, and all people who work in the greater data landscape that must grapple with the ethical issues regarding ethics and machine learning.
+
+```{r kdn, echo = FALSE, fig.cap = "2017 KDNuggets Poll",width=500}
+knitr::include_graphics("imgs/kdn_poll.jpg")
+```
 
 ## Why do ethics matter?
 
@@ -27,9 +35,15 @@ If technology is a mere tool, then it is certainly relevant who wields and utili
 
 When software engineers build products, they are often asked "but how will it scale?" The dilemma for ethical issues is the same. Even if one individual is faced with an ethical quandary, and they resolve it, oftentimes, it does not solve the issue for the institution. Just as engineering products must scale for data, or number of users; so too must ethical solutions to technical problems must also scale for engineers, and organizations.  Thus, this process of "institutionalization" is one that will come up again and again throughout this website. In addition, this also comes with an acknowledgement that readers are just people; there is only so much that one person can do to change an organization (especially at lower levels). However, there is still much that can be done by rank and file employees in order to do change both what they can, and pave a smoother path for others who might come after them. 
 
+Institutionalization comes into relevance for practitioners, because the strucutre of this wiki intends to encourage practitioners to think structurally. The solutions that are promoted here will include the details that can be implemented on a project by project basis, but will hopefully also include steps that practitioners can take to help shape their organizations into normalizing, or "institutionalizing" ethics as part of the machine learning project process.
+
 ## What is machine learning and why is it relevant?
 
 As the great Aurélien Géron defines it, "Machine Learning is the science (and art) of programming computers so they can learn from data" [@geron2019]. Practitioners in the field of machine learning are often called machine learning engineers, research engineers, data scientists, research scientists, and occasionally software engineers. 
+
+```{r oreillyml, echo = FALSE, fig.cap = "From Geron's 'Hands on Machine Learning",width=500}
+knitr::include_graphics("imgs/oreilly.jpg")
+```
 
 ## Additional Resources
 **An article to read: ** "Do Artifacts Have Politics?" by Langdon Winner http://moxi.dk/reference/Winner-Do-Artifacts-Have-Politics-1980.pdf

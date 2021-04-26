@@ -1,0 +1,29 @@
+# Law: GDPR
+
+## What is GDPR?
+
+When it comes to AI legislation, GDPR is the elephant in the room. It has been so significant that it has been led to Europe being called the "World’s Leading Tech Watchdog" [@satariano2018]. The legislation creates tough privacy regulation, and establishes privacy rights for all European citizens, and all companies dealing with European citizens, even if those companies are not located in Europe. With regards to AI, certain parts of the regulation require that certain algorithmic decision making must be both reviewed and explainable by humans [@li2019].  Another part of GDPR (Article 17) codifies the “right to erasure” by consumers, posing possible AI compliance issues, with regards to existing data that has already been trained on user data [@li2019].
+
+International firms are forced to comply with GDPR in order to get access to their market, most notably, Huawei has appointed data compliance officers to deal with the issue [@li2019]. Other companies have left Europe entirely, YouTube “stopped supporting third-party advertising services on reserved ad buys” after the implementation of GDPR . Yeelight, a smart lighting device company left the market as a result of the regulation. Facebook, and Instagram were immediately sued after their implementation of their policy of “forced consent” of user agreements, and the case is currently pending. 
+
+Governments were given broad latitude to impose fines of up to 4\% of global revenue, with penalties for companies that refused to pay risking fines upward of \$1 billion [@satariano2018]. As of 2021, the end result, however, has been called inadequate, critics have complained that enforcement has been adequate, with only Google being fined once for \$54 million, with budget deficits for enforcement agencies blamed for the result [@satariano2020]. 
+
+## What are the current problems with GDPR?
+
+Enforcement has been a persistent issue with GDPR. From May 2018 to April 2020, only a single tech giant was fined: Google was fined 50 million Euros, or "or about one-tenth of what Google generates in sales each day" [@satariano2020]. Other large tech companies, such as Grindr, have been fined in 2021, for violations which the the agency claimed has resulted in "people have had their personal data shared unlawfully" [@lomas2021]. However, while GDPR has the potential to enable countries to level steep fines against large technology companies for violating issues of data privacy, that does not equate with actual enforcement. In the words of a campaigner for privacy regulation, “if you don’t have strong, robust enforcement and investment, this law is a fantasy” [@satariano2020].
+
+GDPR merely gives member states of the European Union the latitude to punish companies that violate GDPR, but the law does not actually force those same countries to punish said companies. Each nation has it's own data protection agency tasked with enforcing the regulation. In fact, Johnny Ryan,  a campaigner for privacy regulation "found that all but three — Germany, Britain and Italy — had data protection agencies with annual budgets of less than €25 million" [@satariano2020]. In addition, Mr. Ryan "found that most countries had only a handful of investigators with industrial expertise dedicated to reviewing technology industry cases". Apple, Linkedin, Facebook, Google and Twitter are centered in Ireland, and as such the country has taken a center place in discussions over data privacy. Consider that from the time of GDPR's passage to April 2020, the country had not levvied a single fine. Not until May of 2020 did the country levy a single fine, and even then the first fine was to "Tusla Child and Family Agency" [@cmslaw2021]. As of April 2021, Ireland has only levvied a single fine against a major tech company: a 450000 euro fine to Twitter in December of 2020 for "Insufficient fulfilment of data breach notification obligations" [@cmslaw2021]. In 2020, 140 people worked at Ireland's data protection agency, and received a budget of 16.9 million pounds [@satariano2020]. 
+
+```{r gdpr, echo = FALSE, fig.cap = "All GDPR fines in Ireland up to April 19 2021",width=500}
+knitr::include_graphics("imgs/GDPR_ireland_enforcement.jpg")
+```
+
+Fortunately, not all hope is lost. The law is new, and enforcement takes time.  In fact, enforcement claims shot up sharply in 2020. In fact, as of February 2021, 471 instances of GDPR fines were levied, approximately 318 of which were levied in 2020 [@palmieri2021]. This is not to say that enforcement is here to stay, the numbers are still relatively paltry in the grand scheme of the tech sector. However, there does appear to be a gradual improvement on the way. 
+
+## How is GDPR relevant to regulation around the world?
+
+One unique aspect of GDPR is that regulation applies to all companies that deal with European citizens, regardless of whether those companies are based in Europe themselves. As such, the potential reach for GDPR is huge. GDPR functions as a model for California's Consumer Protection Act (CCPA), and Virginia's Consumer Data Privacy Act (VCDPA). Future regulation will likely be modeled on GDPR, depending on its successes or failures. In addition, the reach of GDPR regulation is absolutely massive. Any, and all international companies operating in Europe are forced to deal with GDPR. 
+
+## Resources
+
+**Enforcement Tracker: ** https://www.enforcementtracker.com/ 

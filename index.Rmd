@@ -3,10 +3,21 @@ title: "ML Ethics Wiki"
 author: "Kyle Jablon"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+documentclass: book
 bibliography: references.bib
+biblio-style: apalike
 link-citations: yes
 colorlinks: yes
 ---
+ 
+ 
+```{r cover, echo = FALSE, fig.cap = "Credit to Unsplash",width=500}
+knitr::include_graphics("imgs/unsplash_cover.jpg")
+```
 
-Welcome to the ML Ethics Wiki!
+**Welcome to the ML Ethics Wiki!**
+
+We encourage all readers to open a pull request if they feel that they have something to contribute to the wiki. I'll be sure to review, and get back to it as soon as possible! 
+
+Consider this wiki to be a starting point, the work of creating a comprehensive source for machine learning ethics will be herculean.
 

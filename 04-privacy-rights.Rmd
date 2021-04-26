@@ -17,17 +17,19 @@ The issue is the same regardless, the scale of data collection and amplification
 The standard model of privacy regulation encompasses the "notice and consent" model, wherein individuals are notified that their data is being collected, and that they must consent to the collection of their data [@kerry2020]. This is most evident in the barrage of user agreements that individuals must deal with in signing up for any service. However, this model simply doesn't scale well to deal with newer data issues, wherein data is being collected by user browsing, or by public cameras that don't possibly have any opportunity to inform users that their data is being collected. 
 
 ## Rules of thumb
+
 Collect only the data necessary. While it is certainly nice to maximize the amount of data collected, it is not without risk. Collecting unnecessary data opens up a company up to additional security risks, and can also create scaling issues for a data infrastructure. Most importantly though, it's simply unnecessary, and opens the door to potential legal liability. 
 
 Tell users what data is being collected, and what it's being used for. 
 
 Encrypt personally identifiable information. Plain text versions of social security numbers or passwords should ever be stored. There are a variety of encryption schemes, but the most standard involves salting a password, and then hashing the result. 
 
-Apathy is not an excuse. Many practitioners defend the ethically questionable nature of the software they create by positing that they are "just an engineer" or "just a researcher". This is simply untrue. The notion that someone could cordone off their impact to society and the world to one minor slice of their identity is utterly fanciful. Rightly or wrongly, all are judged for their contributions to society. Those who are "just researchers" must take extra steps to ensure that their research is not used in a manner that is unethical.
+Apathy is not an excuse. Many practitioners defend the ethically questionable nature of the software they create by positing that they are "just an engineer" or "just a researcher". This is simply untrue. The notion that someone could cordone off their impact to society and the world to one minor slice of their identity is utterly fanciful. Rightly or wrongly, all are judged for their contributions to society. Those who are "just researchers" ought to take extra steps to ensure that their research is not used in a manner that is unethical.
 
-Don't create surveillance software. If software has shades of 1984, just don't do it. 
+Surveillance software should be viewed with high suspicion. Vision software that claims to "monitor" individuals for proper/improper behaviour is always highly suspect for additional scrutiny. 
 
 ## Resources
 
-**An article to read: ** [___]
-**A story to read: ** [____]
+**An film to watch about the risks of being data-driven: ** "The Fog of War" by Errol Morris https://www.amazon.com/Fog-War-Robert-McNamara/dp/B001EJGQTU 
+
+**A story to read: ** "The Insecurity Machine" by Astra Taylor https://logicmag.io/security/the-insecurity-machine/ 

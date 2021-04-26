@@ -1,0 +1,32 @@
+# Sociology: Technological Solutionism
+
+## What is technological solutionism?
+
+Since 2018, Microsoft has been marketing their cloud and AI platforms using a case study for snow leopard preservation [@ho2018]. In an article titled, "How snow leopard selfies and AI can help save the species from extinction", they detail a project undertaken utilizing their tools wherein an AI algorithm was trained to identify snow leopards utilizing thousands of cameras placed in the wilderness  throughout the Himalayas. The hope is that in the future, this algorithm will allow for better estimation, and tracking of the number of snow leopards out in the wild. As evidenced by Microsoft's marketing, there is a segment of technologists that believe this represents the start of a possible solution to helping save snow leopards. While this certainly could be the case, it is by all means, incredibly unlikely.
+
+A quick google search into causes of snow leopard endangerment reveals that snow leopards are endangered for two reasons: first, because they are highly valued in Chinese medicine and average yearly income in nearby areas is roughly \$300, and second, due to overgrazing from domesticated animals destroying their natural habitats [@snowleopard2008]. The long and short of it is that no AI algorithm will address any of these underlying issues. No algorithm can solve for the income inequality causing humans to poach snow leopards, and no algorithm can help repair the snow leopard environment. If anything, the technological solution is merely obfuscating the core of the real issues. The phenomenon of identifying a social, or political problem and addressing it with a technological solution is called "technological solutionism".
+
+@schull2013 defines "technological solutionism, as, 
+```
+an endemic ideology that recasts complex social phenomena like politics, public health, education, and law enforcement as “neatly defined problems with definite, computable solutions or as transparent and self-evident processes that can be easily optimized—if only the right algorithms are in place!”
+```
+
+```{r bodega, echo = FALSE, fig.cap = "A technological solutionist approach to bodegas",width=500}
+knitr::include_graphics("imgs/bodega.jpg")
+```
+
+## The problem
+
+In the words of @latonero2019: "The deeper issue is that no massive social problem can be reduced to the solution offered by the smartest corporate technologists partnering with the most venerable international organizations." People often ask, "well what's the worst that can happen with new technology", and while there is some validity to this view the issue is related to how new technology is discussed or talked about. There is a manner in which new technology is talked about that can obfuscate the core social or political issue at play. 
+
+
+## What can be done?
+There are no easy technical answers here. It often makes technical stakeholders uneasy to recognize their own powerlessness to "solve" their way out of their problems. This is natural. The key is to recognize when social or political problems are attempted to be solved by using technology. This is easier than it seems; if an entrepreneur is claiming that their technology is solving a big problem, chances are it's just not possible. 
+
+The duty of a technologist in this case should be to appropriate frame teh manner in which their technology or product is being described. There is nothing wrong with "hyping" up a product, so long as the underlying social or political issue is not being hidden.  
+
+It is hard to create a systemic change to the issue here, and it's hard to "institutionalize" that technology cannot solve problems. One thing that practitioners can do though is be upfront and clear with the limits of their ability, and point out when technological solutions are overreaching. Promulgating this approach, and critiquing those who engage in "technological solution" is one way to take steps towards creating a better world.
+
+## Resources
+
+**A talk by Evgeny Morozov on technological solutionism: ** https://www.youtube.com/watch?v=9yQqrZUD6Gk 
